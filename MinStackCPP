@@ -33,9 +33,7 @@ public:
     }
     
     int top() {
-      if(st_top!=-1)  
        return st[st_top];
-      return -1;
     }
     
     int getMin() {
